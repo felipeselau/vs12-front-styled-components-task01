@@ -1,25 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Classe from './components/classe/classe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Escolha sua classe</h1>
+      <div className="classes-wrapper">
+        <Classe gameClass="Bruiser"/>
+        <Classe gameClass="Assassin"/>
+        <Classe gameClass="Mage"/>
+        <Classe gameClass="Marksmen"/>
+        <Classe gameClass="Support"/>
+      </div>
+    </>
   );
 }
 
