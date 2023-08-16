@@ -13,7 +13,8 @@ Tarefa avaliativa do Programa Vem Ser, 12ª Edição.<br/> Desenvolvedor: Luiz F
   <img alt="imagem do site pronto no browser" src="./src/assets/pronto.png">
 </p>
 
-<a align="center" href="https://vs12-front-03-react-projeto-final.vercel.app/">Acesse o deploy no Vercel.</a>
+<a align="center" href="https://vs12-front-styled-components-task01-jbg63evvm-felipeselau.vercel.app">➡️Acesse o deploy no Vercel.</a>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -37,9 +38,5 @@ npm run test-coverage src
 
 ## 💻 Sobre o Projeto
 
-A eLendo é uma plataforma de cadastro e busca de acervos de bibliotecas em todo o Brasil. Através dela, um leitor pode pesquisar gratuitamente sobre a disponibilidade de qualquer livro dentro das instituições participantes.
-
-<a href="https://www.figma.com/file/1eOhSovlAwGRDPxVIEHyNr/eLendo-2.0?type=design&node-id=0%3A1&mode=design&t=0TSPSDEuzpW5CadO-1">Veja aqui</a> o projeto no Figma.
-
-## ⚙️ Para navegar:
+A aplicação busca ser um guia sobre as classes de campeões do jogo League of Legends, onde, ao clicar em uma das classes, é renderizado um pequeno texto informativo e ocorre uma mudança no background da página para um campeão da classe selecionada
 
