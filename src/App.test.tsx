@@ -1,9 +1,23 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('should render static components properly',() => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const title = screen.getByText("Conheça as classes do lolzinho");
+  const currentTitle = screen.getByText("Escolha Sua Classe:");
+  const resetBttn = screen.getByText("Resetar");
+
+
+  expect(title).toBeInTheDocument();
+  expect(currentTitle).toBeInTheDocument();
+  expect(resetBttn).toBeInTheDocument();
 });
+
+
+test("should render componentes properly", async ()=>{
+  render(<App />)
+
+  const cardAdc = screen.getByText("Atirador");
+
+  expect(cardAdc).toBeInTheDocument();
+})
